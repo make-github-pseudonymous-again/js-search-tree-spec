@@ -35,7 +35,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-bst"
+          "title": "@aureooms/js-search-tree-spec"
         },
         "test": {
           "type": "ava",

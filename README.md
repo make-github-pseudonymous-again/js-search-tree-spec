@@ -1,6 +1,4 @@
 :mag: [@aureooms/js-search-tree-spec](https://aureooms.github.io/js-search-tree-spec)
-[![License](https://img.shields.io/github/license/aureooms/js-search-tree-spec.svg)](https://raw.githubusercontent.com/aureooms/js-search-tree-spec/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-search-tree-spec.svg)](https://github.com/aureooms/js-search-tree-spec/issues)
 ==
 
 Search tree specification for JavaScript.

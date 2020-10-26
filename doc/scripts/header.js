@@ -10,14 +10,14 @@ const domReady = function (callback) {
 domReady(function () {
 	const projectname = document.createElement('a');
 	projectname.classList.add('project-name');
-	projectname.text = 'aureooms/js-bst';
+	projectname.text = 'aureooms/js-search-tree-spec';
 	projectname.href = './index.html';
 
 	const header = document.querySelectorAll('header')[0];
 	header.insertBefore(projectname, header.firstChild);
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
-	testlink.href = 'https://coveralls.io/github/aureooms/js-bst';
+	testlink.href = 'https://coveralls.io/github/aureooms/js-search-tree-spec';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
