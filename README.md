@@ -1,34 +1,51 @@
-:seedling: [@aureooms/js-bst](https://aureooms.github.io/js-bst)
-[![License](https://img.shields.io/github/license/aureooms/js-bst.svg)](https://raw.githubusercontent.com/aureooms/js-bst/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-bst.svg)](https://github.com/aureooms/js-bst/issues)
+:mag: [@aureooms/js-search-tree-spec](https://aureooms.github.io/js-search-tree-spec)
+[![License](https://img.shields.io/github/license/aureooms/js-search-tree-spec.svg)](https://raw.githubusercontent.com/aureooms/js-search-tree-spec/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-search-tree-spec.svg)](https://github.com/aureooms/js-search-tree-spec/issues)
 ==
 
-<img src="https://ipfs.io/ipfs/QmV3bHSMRbNYydNxpyuke659Nj89UsVcuSyZXibogw4sJ9" width="864">
+Search tree specification for JavaScript.
+See [docs](https://aureooms.github.io/js-search-tree-spec).
+Parent is [@aureooms/js-bst](https://github.com/aureooms/js-bst).
 
-Binary search tree data structures for JavaScript.
-See [docs](https://aureooms.github.io/js-bst).
-Parent is [@aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
+```js
+// eslint-disable-next-line ava/use-test
+import ava from 'ava' ;
+import * as spec from '@aureooms/js-search-tree-spec' ;
+
+spec.test(
+  ava ,
+  {
+    name: "DummySearchTree" , // Name for the implementation
+    empty: compare => new spec.DummySearchTree(compare) , // Return an empty search tree using `compare` to order keys
+    from: (compare, iterable) => spec.DummySearchTree.from(compare, iterable) , // Return a search tree using `compare` to order keys initialized with the values in iterable
+  } ,
+  {
+    length : true , // Do the implementations maintain a `length` property?
+    lengths : [0, 1, 16, 17, 31, 32, 33, 63, 64, 65] , // Tree sizes to test.
+  }
+) ;
+```
+
+[![License](https://img.shields.io/github/license/aureooms/js-search-tree-spec.svg)](https://raw.githubusercontent.com/aureooms/js-search-tree-spec/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@aureooms/js-search-tree-spec.svg)](https://www.npmjs.org/package/@aureooms/js-search-tree-spec)
+[![Build](https://img.shields.io/travis/aureooms/js-search-tree-spec/main.svg)](https://travis-ci.org/aureooms/js-search-tree-spec/branches)
+[![Dependencies](https://img.shields.io/david/aureooms/js-search-tree-spec.svg)](https://david-dm.org/aureooms/js-search-tree-spec)
+[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-search-tree-spec.svg)](https://david-dm.org/aureooms/js-search-tree-spec?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-search-tree-spec.svg)](https://github.com/aureooms/js-search-tree-spec/issues)
+[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-search-tree-spec.svg)](https://www.npmjs.org/package/@aureooms/js-search-tree-spec)
+
+[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-search-tree-spec/main.svg)](https://codecov.io/gh/aureooms/js-search-tree-spec)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/technical_debt)
+[![Documentation](https://aureooms.github.io/js-search-tree-spec//badge.svg)](https://aureooms.github.io/js-search-tree-spec//source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search-tree-spec)](https://bundlephobia.com/result?p=@aureooms/js-search-tree-spec)
 
 ## Description
 
-This README regroups projects focusing on implementing search tree data
-structures with JavaScript.
-This project itself does not contain any code.
-
-### :baby: Children
-
-  - [x] [@aureooms/js-red-black-tree](https://github.com/aureooms/js-red-black-tree)
-  - [ ] [@aureooms/js-splay-tree](https://github.com/aureooms/js-splay-tree)
-  - [ ] [@aureooms/js-avl-tree](https://github.com/aureooms/js-avl-tree)
-  - [ ] [2-3 tree](https://github.com/aureooms/js-bst/issues/2)
-  - [ ] [2-3-4 tree](https://github.com/aureooms/js-bst/issues/15)
-  - [ ] [AA tree](https://github.com/aureooms/js-bst/issues/3)
-  - [ ] [Scapegoat tree](https://github.com/aureooms/js-bst/issues/5)
-  - [ ] [Treap](https://github.com/aureooms/js-bst/issues/7)
-  - [ ] [Randomized binary search tree](https://github.com/aureooms/js-bst/issues/9)
-
-## :scroll: Reference
-
-  - https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree#Implementations
-  - http://opendatastructures.org/ods-java/7_Random_Binary_Search_Tree.html
-  - https://github.com/mikolalysenko/functional-red-black-tree
+This package contains a specification test suite for search tree
+implementations such as
+[@aureooms/js-red-black-tree](https://github.com/aureooms/js-red-black-tree),
+[@aureooms/js-splay-tree](https://github.com/aureooms/js-splay-tree),
+and
+[@aureooms/js-avl-tree](https://github.com/aureooms/js-avl-tree).

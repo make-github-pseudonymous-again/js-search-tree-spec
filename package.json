@@ -1,6 +1,6 @@
 {
-  "name": "@aureooms/js-bst",
-  "description": "Binary search tree data structure library for JavaScript",
+  "name": "@aureooms/js-search-tree-spec",
+  "description": "Search tree specification for JavaScript",
   "version": "3.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
@@ -74,14 +74,15 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-bst/issues"
+    "url": "https://github.com/aureooms/js-search-tree-spec/issues"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@aureooms/js-compare": "^1.4.8",
     "@aureooms/js-functools": "^2.0.3",
     "@aureooms/js-itertools": "^4.1.0",
-    "@aureooms/js-random": "^2.0.0",
+    "@aureooms/js-random": "^2.0.0"
+  },
+  "devDependencies": {
     "@babel/cli": "7.12.1",
     "@babel/core": "7.12.3",
     "@babel/preset-env": "7.12.1",
@@ -98,35 +99,26 @@
     "np": "6.5.0",
     "nyc": "^15.1.0",
     "power-assert": "1.6.1",
-    "regenerator-runtime": "0.13.7"
+    "regenerator-runtime": "0.13.7",
+    "xo": "^0.34.1"
   },
   "files": [
     "lib"
   ],
-  "homepage": "https://aureooms.github.io/js-bst",
+  "homepage": "https://aureooms.github.io/js-search-tree-spec",
   "keywords": [
-    "adt",
-    "algorithm",
-    "avl",
-    "balanced",
-    "binary",
-    "black",
-    "bst",
-    "complexity",
+    "search",
+    "tree",
+    "specification",
     "data",
     "javascript",
     "js",
-    "red",
-    "red-black",
-    "search",
-    "splay",
-    "structure",
-    "tree"
+    "structure"
   ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-bst.git",
+    "url": "https://github.com/aureooms/js-search-tree-spec.git",
     "type": "git"
   },
   "scripts": {
@@ -134,11 +126,33 @@
     "cover": "nyc --reporter=lcov npm test",
     "dev": "npm run lint -- --fix && npm run cover -- -- -st --fail-fast",
     "esdoc": "esdoc",
-    "lint": "true",
+    "lint": "xo",
     "prepare": "npm run build",
     "release": "np",
     "test": "ava",
     "travis": "npm run lint && npm run cover"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "xo": {
+    "prettier": true,
+    "ignore": [
+      "lib"
+    ],
+    "plugins": [
+      "unicorn"
+    ],
+    "rules": {
+      "unicorn/filename-case": "off",
+      "unicorn/no-fn-reference-in-iterator": "off",
+      "unicorn/prevent-abbreviations": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "doc/**"
+        ],
+        "env": "browser"
+      }
+    ]
+  }
 }

@@ -1,62 +1,10 @@
-import {
-	find ,
-	inordertraversal ,
-	insert ,
-	insertwithparent ,
-	leftrotate ,
-	leftrotatewithparent ,
-	max ,
-	min ,
-	predecessor ,
-	range ,
-	remove ,
-	replace ,
-	rightrotate ,
-	rightrotatewithparent ,
-	successor ,
-	treeinsert ,
-} from './fundamentals' ;
+import DummySearchTree from './DummySearchTree';
+import test from './test';
 
-import {
-	UnbalancedBST1,
-}  from './UnbalancedBST' ;
-
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
-	find ,
-	inordertraversal ,
-	insert ,
-	insertwithparent ,
-	leftrotate ,
-	leftrotatewithparent ,
-	max ,
-	min ,
-	predecessor ,
-	range ,
-	remove ,
-	replace ,
-	rightrotate ,
-	rightrotatewithparent ,
-	successor ,
-	treeinsert ,
-	UnbalancedBST1 ,
-} ;
+	DummySearchTree,
+	test
+};
 
-export {
-	find ,
-	inordertraversal ,
-	insert ,
-	insertwithparent ,
-	leftrotate ,
-	leftrotatewithparent ,
-	max ,
-	min ,
-	predecessor ,
-	range ,
-	remove ,
-	replace ,
-	rightrotate ,
-	rightrotatewithparent ,
-	successor ,
-	treeinsert ,
-	UnbalancedBST1 ,
-} ;
+export {DummySearchTree, test};
