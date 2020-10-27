@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/test.js | @aureooms/js-search-tree-spec</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<script src="./inject/script/0-header.js"></script><link rel="stylesheet" href="./inject/css/0-style.css"><meta name="description" content="Search tree specification for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-search-tree-spec"><meta property="twitter:description" content="Search tree specification for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-search-tree-spec.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DummySearchTree">DummySearchTree</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-test">test</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/test.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {increasing, decreasing} from &apos;@aureooms/js-compare&apos;;
+import {shuffle} from &apos;@aureooms/js-random&apos;;
+import {exhaust, list, map, product, chain} from &apos;@aureooms/js-itertools&apos;;
+import {star} from &apos;@aureooms/js-functools&apos;;
+
+/**
+ * Tests the following methods:
+ *
+ *   - tree.insert( value )
+ *   - tree.find( value )
+ *   - tree.remove( value )
+ *   - tree[@@iterator]()
+ */
+
+const macro = (t, {empty}, compare, n, length) =&gt; {
+	let i;
+
+	const tree = empty(compare);
+
+	const a = [];
+	i = n;
+
+	while (i--) {
+		const x = Math.random();
+		tree.insert(x);
+		a.push(x);
+		if (length) t.is(tree.length, a.length);
+	}
+
+	a.sort(compare);
+
+	const half = Math.floor(n / 2);
+
+	// CHECK CONTENT
+	const b = [...tree];
+	t.deepEqual(b, a, &apos;check content&apos;);
+
+	// PREPARE FOR CHECKING PURPOSES
+	i = n;
+	while (i--) {
+		a[i] = [true, a[i]];
+	}
+
+	// CHECK FIND SORTED
+	i = n;
+	while (i--) {
+		b[i] = tree.find(a[i][1]);
+		if (length) t.is(tree.length, n);
+	}
+
+	t.deepEqual(b, a, &apos;check find sorted&apos;);
+
+	// CHECK FIND SHUFFLED
+	shuffle(a, 0, n);
+	i = n;
+	while (i--) {
+		b[i] = tree.find(a[i][1]);
+		if (length) t.is(tree.length, n);
+	}
+
+	t.deepEqual(b, a, &apos;check find shuffled&apos;);
+
+	const remove = (l, r, p, q, txt) =&gt; {
+		// REMOVE
+
+		i = r;
+		while (i-- &gt; l) {
+			tree.remove(a[i][1]);
+			a[i][0] = false;
+		}
+
+		// CHECK CONTENT AFTER REMOVE
+
+		const e = [];
+		for (i = p; i &lt; q; ++i) {
+			e.push(a[i][1]);
+		}
+
+		e.sort(compare);
+		const d = [...tree];
+		t.deepEqual(d, e, &apos;check content &apos; + txt);
+
+		// CHECK FIND AFTER REMOVE
+
+		const c = [];
+		i = n;
+		while (i--) {
+			b[i] = tree.find(a[i][1])[0];
+			c[i] = a[i][0];
+		}
+
+		t.deepEqual(b, c, &apos;check find &apos; + txt);
+
+		// TRY REMOVING TWICE
+
+		i = r;
+		while (i-- &gt; l) {
+			tree.remove(a[i][1]);
+		}
+	};
+
+	remove(half, n, 0, half, &apos;after remove half&apos;);
+
+	// ADD NEW ELEMENTS
+	i = n;
+	while (i-- &gt; half) {
+		const x = Math.random();
+		tree.insert(x);
+		a[i] = [true, x];
+	}
+
+	// CHECK CONTENT NEW ELEMENTS
+
+	const e = [];
+	for (i = 0; i &lt; n; ++i) {
+		e.push(a[i][1]);
+	}
+
+	e.sort(compare);
+	const d = [...tree];
+	t.deepEqual(d, e, &apos;check content new elements&apos;);
+
+	// CHECK FIND NEW ELEMENTS
+
+	i = n;
+
+	while (i--) {
+		b[i] = tree.find(a[i][1]);
+	}
+
+	t.deepEqual(b, a, &apos;check find new elements&apos;);
+
+	remove(0, half, half, n, &apos;after remove first half&apos;);
+	remove(half, n, 0, 0, &apos;after remove second half&apos;);
+
+	t.is(tree.length, 0, &apos;tree is empty&apos;);
+};
+
+macro.title = (title, {name}, compare, n, length) =&gt;
+	`search tree (${name}, ${compare.name}, ${n}, length: ${length})`;
+
+const DEFAULT_COMPARE_FUNCTIONS = [increasing, decreasing];
+const DEFAULT_LENGTH_VALUES = [
+	[1],
+	[16],
+	[17],
+	[31],
+	[32],
+	[33],
+	[127],
+	[128],
+	[129]
+];
+const DEFAULT_OPTIONS = {
+	compare: DEFAULT_COMPARE_FUNCTIONS,
+	lengths: DEFAULT_LENGTH_VALUES,
+	length: false
+};
+
+const wrap = (l) =&gt; map((x) =&gt; [x], l[Symbol.iterator] === undefined ? [l] : l);
+
+export default function test(_test, implementations, options) {
+	options = Object.assign({}, DEFAULT_OPTIONS, options);
+	exhaust(
+		map((args) =&gt; {
+			star((tree, compare, size, length) =&gt; {
+				_test(macro, tree, compare, size, length);
+			}, list(chain(args)));
+		}, product([wrap(implementations), wrap(options.compare), wrap(options.lengths), wrap(options.length)], 1))
+	);
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,158 +1,49 @@
 {
-  "coverage": "33.33%",
-  "expectCount": 24,
-  "actualCount": 8,
+  "coverage": "3.12%",
+  "expectCount": 32,
+  "actualCount": 1,
   "files": {
-    "src/UnbalancedBST/UnbalancedBST1.js": {
-      "expectCount": 1,
+    "src/DummySearchTree.js": {
+      "expectCount": 26,
       "actualCount": 0,
       "undocumentLines": [
-        8
+        3,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29,
+        33,
+        37,
+        44,
+        53,
+        60,
+        67,
+        72,
+        80,
+        88,
+        98,
+        110,
+        115,
+        120,
+        126,
+        131,
+        136,
+        144,
+        149,
+        153
       ]
     },
-    "src/SplayTree/__SplayTree1__.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/SplayTree/__SplayTree2__.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/SplayTree/__SplayTree3__.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/SplayTree/__SplayTree4__.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/SplayTree/__SplayTree5__.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/fundamentals/avlbalance.js": {
-      "expectCount": 1,
+    "src/test.js": {
+      "expectCount": 6,
       "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/find.js": {
-      "expectCount": 1,
-      "actualCount": 0,
       "undocumentLines": [
-        3
-      ]
-    },
-    "src/fundamentals/inordertraversal.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/fundamentals/insert.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/fundamentals/insertwithparent.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/fundamentals/leftrotate.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/leftrotatewithparent.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/max.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        4
-      ]
-    },
-    "src/fundamentals/min.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        3
-      ]
-    },
-    "src/fundamentals/predecessor.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/range.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        3
-      ]
-    },
-    "src/fundamentals/rbinsertfixup.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/remove.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        3
-      ]
-    },
-    "src/fundamentals/replace.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        2
-      ]
-    },
-    "src/fundamentals/rightrotate.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/rightrotatewithparent.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/successor.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/fundamentals/treeinsert.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        3
+        142,
+        143,
+        154,
+        160,
+        162
       ]
     }
   }

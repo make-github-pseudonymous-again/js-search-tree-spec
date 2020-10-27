@@ -1,0 +1,1632 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/DummySearchTree.js",
+    "content": "import assert from 'assert';\n\nexport default function DummySearchTree(compare, sortedArray = []) {\n\tthis.compare = compare;\n\tthis.array = sortedArray;\n\tthis.length = sortedArray.length;\n}\n\nDummySearchTree.from = function (compare, iterable) {\n\treturn new DummySearchTree(compare, [...iterable].sort(compare));\n};\n\nDummySearchTree.prototype.isEmpty = function () {\n\treturn this.length === 0;\n};\n\nDummySearchTree.prototype._eq = function (key) {\n\treturn (other) => this.compare(other, key) === 0;\n};\n\nDummySearchTree.prototype._ge = function (key) {\n\treturn (other) => this.compare(other, key) >= 0;\n};\n\nDummySearchTree.prototype._le = function (key) {\n\treturn (other) => this.compare(other, key) <= 0;\n};\n\nDummySearchTree.prototype._arrayIndex = function (key) {\n\treturn this.array.findIndex(this._eq(key));\n};\n\nDummySearchTree.prototype.has = function (key) {\n\treturn this._arrayIndex(key) !== -1;\n};\n\nDummySearchTree.prototype._predecessorIndex = function (key) {\n\tconst arrayIndex = this.array.findIndex(this._ge(key));\n\tconst index = arrayIndex === -1 ? this.length - 1 : arrayIndex - 1;\n\tassert(index >= -1 && index < this.length);\n\treturn index;\n};\n\nDummySearchTree.prototype._successorIndex = function (key) {\n\tthis.array.reverse();\n\tconst arrayIndex = this.array.findIndex(this._le(key));\n\tthis.array.reverse();\n\tconst index = arrayIndex + 1;\n\tassert(index >= 0 && index <= this.length);\n\treturn index;\n};\n\nDummySearchTree.prototype._rangeIndices = function (left, right) {\n\tconst leftIndex = this.array.findIndex(this._ge(left));\n\tlet rightIndex = leftIndex;\n\twhile (this.compare(this.array[rightIndex], right) < 0) ++rightIndex;\n\treturn [leftIndex, rightIndex];\n};\n\nDummySearchTree.prototype._rangeIndicesInclusive = function (left, right) {\n\tconst leftIndex = this.array.findIndex(this._ge(left));\n\tlet rightIndex = leftIndex;\n\twhile (this.compare(this.array[rightIndex], right) <= 0) ++rightIndex;\n\treturn [leftIndex, rightIndex];\n};\n\nDummySearchTree.prototype._keyIndices = function (key) {\n\treturn this._rangeIndicesInclusive(key, key);\n};\n\n// TODO insert/add/insertFirst/insertLast\nDummySearchTree.prototype.insert = function (key) {\n\tthis.array.push(key);\n\t++this.length;\n\tthis.array.sort(this.compare);\n\treturn this;\n};\n\n// TODO updateFirst? upsert? updateLast, updateAll?\nDummySearchTree.prototype.update = function (key) {\n\tconst index = this._arrayIndex(key);\n\tif (index === -1) return this.insert(key);\n\tthis.array[index] = key;\n\treturn this;\n};\n\n// TODO remove/delete/removeFirst/removeLast\nDummySearchTree.prototype.remove = function (key) {\n\tconst index = this._arrayIndex(key);\n\tif (index !== -1) {\n\t\tthis.array.splice(index, 1);\n\t\t--this.length;\n\t}\n\n\treturn this;\n};\n\nDummySearchTree.prototype.removeAll = function (key) {\n\tconst [i, j] = this._keyIndices(key);\n\tconst n = j - i;\n\tif (n !== 0) {\n\t\tthis.array.splice(i, n);\n\t\tthis.length -= n;\n\t}\n\n\treturn this;\n};\n\n// TODO find/search/get/findFirst/findLast\nDummySearchTree.prototype.find = function (key) {\n\tconst index = this._arrayIndex(key);\n\treturn index === -1 ? [false, null] : [true, this.array[index]];\n};\n\nDummySearchTree.prototype.predecessor = function (key) {\n\tconst index = this._predecessorIndex(key);\n\treturn index === -1 ? undefined : this.array[index];\n};\n\nDummySearchTree.prototype.successor = function (key) {\n\tconst index = this._successorIndex(key);\n\treturn index === this.array.length ? undefined : this.array[index];\n};\n\n// TODO minKey?\nDummySearchTree.prototype.leftMost = function () {\n\treturn this.length === 0 ? undefined : this.array[0];\n};\n\n// TODO maxKey?\nDummySearchTree.prototype.rightMost = function () {\n\treturn this.length === 0 ? undefined : this.array[this.length - 1];\n};\n\n// TODO meld/merge\nDummySearchTree.prototype.meld = function (other) {\n\tthis.array = this.array.concat([...other]);\n\tthis.array.sort(this.compare);\n\tthis.length = this.array.length;\n\treturn this;\n};\n\n// TODO inclusive ? (left, right), [left, right), [left, right], (left, right]\nDummySearchTree.prototype.range = function* (left, right) {\n\tconst [i, j] = this._rangeIndices(left, right);\n\tfor (let k = i; k < j; ++k) yield this.array[k];\n};\n\nDummySearchTree.prototype.items = function () {\n\treturn this.array[Symbol.iterator]();\n};\n\nDummySearchTree.prototype[Symbol.iterator] = function () {\n\treturn this.items();\n};\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/src/DummySearchTree.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "DummySearchTree",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~DummySearchTree",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": "DummySearchTree",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "sortedArray",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "from",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~from",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "iterable",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "isEmpty",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~isEmpty",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "_eq",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_eq",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "_ge",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_ge",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "_le",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_le",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "_arrayIndex",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_arrayIndex",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "has",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~has",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 33,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "_predecessorIndex",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_predecessorIndex",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "_successorIndex",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_successorIndex",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "_rangeIndices",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_rangeIndices",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 53,
+    "undocument": true,
+    "params": [
+      {
+        "name": "left",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "right",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "_rangeIndicesInclusive",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_rangeIndicesInclusive",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 60,
+    "undocument": true,
+    "params": [
+      {
+        "name": "left",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "right",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "_keyIndices",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~_keyIndices",
+    "access": "private",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 67,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "insert",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~insert",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 72,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "update",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~update",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 80,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "remove",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~remove",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 88,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "removeAll",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~removeAll",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 98,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~find",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 110,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "predecessor",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~predecessor",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 115,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "successor",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~successor",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 120,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "leftMost",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~leftMost",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 126,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "rightMost",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~rightMost",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 131,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "meld",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~meld",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 136,
+    "undocument": true,
+    "params": [
+      {
+        "name": "other",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "range",
+    "memberof": "src/DummySearchTree.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~range",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 144,
+    "undocument": true,
+    "params": [
+      {
+        "name": "left",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "right",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "items",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~items",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 149,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "[Symbol.iterator]",
+    "memberof": "src/DummySearchTree.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/DummySearchTree.js~[Symbol.iterator]",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/DummySearchTree.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 153,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import DummySearchTree from './DummySearchTree';\nimport test from './test';\n\n/* eslint import/no-anonymous-default-export: [2, {\"allowObject\": true}] */\nexport default {\n\tDummySearchTree,\n\ttest\n};\n\nexport {DummySearchTree, test};\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/test.js",
+    "content": "import {increasing, decreasing} from '@aureooms/js-compare';\nimport {shuffle} from '@aureooms/js-random';\nimport {exhaust, list, map, product, chain} from '@aureooms/js-itertools';\nimport {star} from '@aureooms/js-functools';\n\n/**\n * Tests the following methods:\n *\n *   - tree.insert( value )\n *   - tree.find( value )\n *   - tree.remove( value )\n *   - tree[@@iterator]()\n */\n\nconst macro = (t, {empty}, compare, n, length) => {\n\tlet i;\n\n\tconst tree = empty(compare);\n\n\tconst a = [];\n\ti = n;\n\n\twhile (i--) {\n\t\tconst x = Math.random();\n\t\ttree.insert(x);\n\t\ta.push(x);\n\t\tif (length) t.is(tree.length, a.length);\n\t}\n\n\ta.sort(compare);\n\n\tconst half = Math.floor(n / 2);\n\n\t// CHECK CONTENT\n\tconst b = [...tree];\n\tt.deepEqual(b, a, 'check content');\n\n\t// PREPARE FOR CHECKING PURPOSES\n\ti = n;\n\twhile (i--) {\n\t\ta[i] = [true, a[i]];\n\t}\n\n\t// CHECK FIND SORTED\n\ti = n;\n\twhile (i--) {\n\t\tb[i] = tree.find(a[i][1]);\n\t\tif (length) t.is(tree.length, n);\n\t}\n\n\tt.deepEqual(b, a, 'check find sorted');\n\n\t// CHECK FIND SHUFFLED\n\tshuffle(a, 0, n);\n\ti = n;\n\twhile (i--) {\n\t\tb[i] = tree.find(a[i][1]);\n\t\tif (length) t.is(tree.length, n);\n\t}\n\n\tt.deepEqual(b, a, 'check find shuffled');\n\n\tconst remove = (l, r, p, q, txt) => {\n\t\t// REMOVE\n\n\t\ti = r;\n\t\twhile (i-- > l) {\n\t\t\ttree.remove(a[i][1]);\n\t\t\ta[i][0] = false;\n\t\t}\n\n\t\t// CHECK CONTENT AFTER REMOVE\n\n\t\tconst e = [];\n\t\tfor (i = p; i < q; ++i) {\n\t\t\te.push(a[i][1]);\n\t\t}\n\n\t\te.sort(compare);\n\t\tconst d = [...tree];\n\t\tt.deepEqual(d, e, 'check content ' + txt);\n\n\t\t// CHECK FIND AFTER REMOVE\n\n\t\tconst c = [];\n\t\ti = n;\n\t\twhile (i--) {\n\t\t\tb[i] = tree.find(a[i][1])[0];\n\t\t\tc[i] = a[i][0];\n\t\t}\n\n\t\tt.deepEqual(b, c, 'check find ' + txt);\n\n\t\t// TRY REMOVING TWICE\n\n\t\ti = r;\n\t\twhile (i-- > l) {\n\t\t\ttree.remove(a[i][1]);\n\t\t}\n\t};\n\n\tremove(half, n, 0, half, 'after remove half');\n\n\t// ADD NEW ELEMENTS\n\ti = n;\n\twhile (i-- > half) {\n\t\tconst x = Math.random();\n\t\ttree.insert(x);\n\t\ta[i] = [true, x];\n\t}\n\n\t// CHECK CONTENT NEW ELEMENTS\n\n\tconst e = [];\n\tfor (i = 0; i < n; ++i) {\n\t\te.push(a[i][1]);\n\t}\n\n\te.sort(compare);\n\tconst d = [...tree];\n\tt.deepEqual(d, e, 'check content new elements');\n\n\t// CHECK FIND NEW ELEMENTS\n\n\ti = n;\n\n\twhile (i--) {\n\t\tb[i] = tree.find(a[i][1]);\n\t}\n\n\tt.deepEqual(b, a, 'check find new elements');\n\n\tremove(0, half, half, n, 'after remove first half');\n\tremove(half, n, 0, 0, 'after remove second half');\n\n\tt.is(tree.length, 0, 'tree is empty');\n};\n\nmacro.title = (title, {name}, compare, n, length) =>\n\t`search tree (${name}, ${compare.name}, ${n}, length: ${length})`;\n\nconst DEFAULT_COMPARE_FUNCTIONS = [increasing, decreasing];\nconst DEFAULT_LENGTH_VALUES = [\n\t[1],\n\t[16],\n\t[17],\n\t[31],\n\t[32],\n\t[33],\n\t[127],\n\t[128],\n\t[129]\n];\nconst DEFAULT_OPTIONS = {\n\tcompare: DEFAULT_COMPARE_FUNCTIONS,\n\tlengths: DEFAULT_LENGTH_VALUES,\n\tlength: false\n};\n\nconst wrap = (l) => map((x) => [x], l[Symbol.iterator] === undefined ? [l] : l);\n\nexport default function test(_test, implementations, options) {\n\toptions = Object.assign({}, DEFAULT_OPTIONS, options);\n\texhaust(\n\t\tmap((args) => {\n\t\t\tstar((tree, compare, size, length) => {\n\t\t\t\t_test(macro, tree, compare, size, length);\n\t\t\t}, list(chain(args)));\n\t\t}, product([wrap(implementations), wrap(options.compare), wrap(options.lengths), wrap(options.length)], 1))\n\t);\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/src/test.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "macro",
+    "memberof": "src/test.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/test.js~macro",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/test.js",
+    "importStyle": null,
+    "description": "Tests the following methods:\n\n  - tree.insert( value )\n  - tree.find( value )\n  - tree.remove( value )\n  - tree[@@iterator]()",
+    "lineNumber": 15,
+    "params": [
+      {
+        "name": "t",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "objectPattern1",
+        "types": [
+          "{\"empty\": *}"
+        ],
+        "defaultRaw": {
+          "empty": null
+        },
+        "defaultValue": "{\"empty\":null}"
+      },
+      {
+        "name": "compare",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "length",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "variable",
+    "name": "DEFAULT_COMPARE_FUNCTIONS",
+    "memberof": "src/test.js",
+    "static": true,
+    "longname": "src/test.js~DEFAULT_COMPARE_FUNCTIONS",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/test.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 142,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "variable",
+    "name": "DEFAULT_LENGTH_VALUES",
+    "memberof": "src/test.js",
+    "static": true,
+    "longname": "src/test.js~DEFAULT_LENGTH_VALUES",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/test.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 143,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "DEFAULT_OPTIONS",
+    "memberof": "src/test.js",
+    "static": true,
+    "longname": "src/test.js~DEFAULT_OPTIONS",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/test.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 154,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"compare\": *, \"lengths\": *, \"length\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "wrap",
+    "memberof": "src/test.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/test.js~wrap",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-search-tree-spec/src/test.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 160,
+    "undocument": true,
+    "params": [
+      {
+        "name": "l",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 82,
+    "kind": "function",
+    "name": "test",
+    "memberof": "src/test.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/test.js~test",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-search-tree-spec/src/test.js",
+    "importStyle": "test",
+    "description": null,
+    "lineNumber": 162,
+    "undocument": true,
+    "params": [
+      {
+        "name": "_test",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "implementations",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": ":mag: [@aureooms/js-search-tree-spec](https://aureooms.github.io/js-search-tree-spec)\n==\n\nSearch tree specification for JavaScript.\nSee [docs](https://aureooms.github.io/js-search-tree-spec).\nParent is [@aureooms/js-bst](https://github.com/aureooms/js-bst).\n\n```js\n// eslint-disable-next-line ava/use-test\nimport ava from 'ava' ;\nimport * as spec from '@aureooms/js-search-tree-spec' ;\n\nspec.test(\n  ava ,\n  {\n    name: \"DummySearchTree\" , // Name for the implementation\n    empty: compare => new spec.DummySearchTree(compare) , // Return an empty search tree using `compare` to order keys\n    from: (compare, iterable) => spec.DummySearchTree.from(compare, iterable) , // Return a search tree using `compare` to order keys initialized with the values in iterable\n  } ,\n  {\n    length : true , // Do the implementations maintain a `length` property?\n    lengths : [0, 1, 16, 17, 31, 32, 33, 63, 64, 65] , // Tree sizes to test.\n  }\n) ;\n```\n\n[![License](https://img.shields.io/github/license/aureooms/js-search-tree-spec.svg)](https://raw.githubusercontent.com/aureooms/js-search-tree-spec/main/LICENSE)\n[![Version](https://img.shields.io/npm/v/@aureooms/js-search-tree-spec.svg)](https://www.npmjs.org/package/@aureooms/js-search-tree-spec)\n[![Build](https://img.shields.io/travis/aureooms/js-search-tree-spec/main.svg)](https://travis-ci.org/aureooms/js-search-tree-spec/branches)\n[![Dependencies](https://img.shields.io/david/aureooms/js-search-tree-spec.svg)](https://david-dm.org/aureooms/js-search-tree-spec)\n[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-search-tree-spec.svg)](https://david-dm.org/aureooms/js-search-tree-spec?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-search-tree-spec.svg)](https://github.com/aureooms/js-search-tree-spec/issues)\n[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-search-tree-spec.svg)](https://www.npmjs.org/package/@aureooms/js-search-tree-spec)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-search-tree-spec/main.svg)](https://codecov.io/gh/aureooms/js-search-tree-spec)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/technical_debt)\n[![Documentation](https://aureooms.github.io/js-search-tree-spec//badge.svg)](https://aureooms.github.io/js-search-tree-spec//source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search-tree-spec)](https://bundlephobia.com/result?p=@aureooms/js-search-tree-spec)\n\n## Description\n\nThis package contains a specification test suite for search tree\nimplementations such as\n[@aureooms/js-red-black-tree](https://github.com/aureooms/js-red-black-tree),\n[@aureooms/js-splay-tree](https://github.com/aureooms/js-splay-tree),\nand\n[@aureooms/js-avl-tree](https://github.com/aureooms/js-avl-tree).\n",
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@aureooms/js-search-tree-spec\",\n  \"description\": \"Search tree specification for JavaScript\",\n  \"version\": \"3.0.0\",\n  \"author\": \"Aurélien Ooms <aurelien.ooms@gmail.com>\",\n  \"ava\": {\n    \"require\": [\n      \"regenerator-runtime/runtime\",\n      \"@babel/register\"\n    ],\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"timeout\": \"1m\",\n    \"concurrency\": 8\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"env\": {\n      \"test\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      },\n      \"development\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      },\n      \"production\": {\n        \"plugins\": [\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ],\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/aureooms/js-search-tree-spec/issues\"\n  },\n  \"dependencies\": {\n    \"@aureooms/js-compare\": \"^1.4.8\",\n    \"@aureooms/js-functools\": \"^2.0.3\",\n    \"@aureooms/js-itertools\": \"^4.1.0\",\n    \"@aureooms/js-random\": \"^2.0.0\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"7.12.1\",\n    \"@babel/core\": \"7.12.3\",\n    \"@babel/preset-env\": \"7.12.1\",\n    \"@babel/register\": \"7.12.1\",\n    \"ava\": \"^3.13.0\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.0.1\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"coveralls\": \"^3.1.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"np\": \"6.5.0\",\n    \"nyc\": \"^15.1.0\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.7\",\n    \"xo\": \"^0.34.1\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://aureooms.github.io/js-search-tree-spec\",\n  \"keywords\": [\n    \"search\",\n    \"tree\",\n    \"specification\",\n    \"data\",\n    \"javascript\",\n    \"js\",\n    \"structure\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"repository\": {\n    \"url\": \"https://github.com/aureooms/js-search-tree-spec.git\",\n    \"type\": \"git\"\n  },\n  \"scripts\": {\n    \"build\": \"babel src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"dev\": \"npm run lint -- --fix && npm run cover -- -- -st --fail-fast\",\n    \"esdoc\": \"esdoc\",\n    \"lint\": \"xo\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"ava\",\n    \"travis\": \"npm run lint && npm run cover\"\n  },\n  \"sideEffects\": false,\n  \"xo\": {\n    \"prettier\": true,\n    \"ignore\": [\n      \"lib\"\n    ],\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": \"off\",\n      \"unicorn/no-fn-reference-in-iterator\": \"off\",\n      \"unicorn/prevent-abbreviations\": \"off\"\n    },\n    \"overrides\": [\n      {\n        \"files\": [\n          \"doc/**\"\n        ],\n        \"env\": \"browser\"\n      }\n    ]\n  }\n}\n",
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\nCan be managed using\n[jspm](http://jspm.io)\nor [npm](https://github.com/npm/npm).\n\n### jspm\n```terminal\njspm install npm:@aureooms/js-search-tree-spec\n```\n\n### npm\n```terminal\nnpm install @aureooms/js-search-tree-spec --save\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\nThe code needs a ES2015+ polyfill to work, for example\n[regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).\n```js\nrequire( 'regenerator-runtime/runtime' ) ;\n// or\nimport 'regenerator-runtime/runtime' ;\n```\n\nThen\n```js\nconst spec = require( '@aureooms/js-search-tree-spec' ) ;\n// or\nimport spec from '@aureooms/js-search-tree-spec' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-search-tree-spec/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\n",
+    "static": true,
+    "access": "public"
+  }
+]
