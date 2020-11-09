@@ -47,3 +47,186 @@ implementations such as
 [@aureooms/js-splay-tree](https://github.com/aureooms/js-splay-tree),
 and
 [@aureooms/js-avl-tree](https://github.com/aureooms/js-avl-tree).
+
+## Specification
+
+### Definition of a `Ternary Comparator`
+
+We choose to parameterize trees using ternary comparator functions rather that
+key functions (as is done in Python for instance).
+
+    Comparator = ( x , x ) -> Number
+    Key = ( x ) -> String
+
+    compare( a , b ) < 0 <=> key( a ) < key( b )
+    compare( a , b ) = 0 <=> key( a ) = key( b )
+    compare( a , b ) > 0 <=> key( a ) > key( b )
+
+### Example of a `Ternary Comparator`
+
+The following `Comparator` orders instances of `String`.
+
+```js
+const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+```
+
+### Exposed tree constructors
+
+No surprises here:
+
+```js
+const { from , empty } = SearchTree ;
+```
+
+### `empty(Comparator) -> SearchTree`
+
+Create an empty search tree from a comparator function.
+
+```js
+let tree = empty( compare ) ;
+```
+
+### `from(Comparator, Iterable) -> Tree`
+
+Create a search tree from a comparator function and an iterable.
+
+```js
+let tree = from( compare , 'abc' ) ;
+```
+
+### `Tree#length -> Number` (optional)
+
+Returns the number of elements in the tree.
+
+```js
+if ( tree.length > 1 ) ...
+```
+
+### `Tree#isEmpty() -> Boolean`
+
+Returns `true` if the tree is empty, `false` otherwise.
+
+```js
+return tree.isEmpty() ? 'empty' : 'not empty' ;
+```
+
+### `Tree#has(x) -> Boolean`
+
+Returns `true` if the tree contains given element.
+
+```js
+if (tree.has(x)) ...
+```
+
+### Insertion
+
+#### `Tree#insert(x) -> Reference`
+
+Insert given element in the tree and returns optional reference.
+
+```js
+tree.insert('abc');
+```
+
+### Update
+
+#### `Tree#update(x) -> Reference`
+
+Update given element in the tree and returns optional reference.
+
+```js
+tree.insert({key: 'abc', value: 0});
+tree.update({key: 'abc', value: 123});
+```
+
+### Removal
+
+#### `Tree#removeFirst(x) -> Boolean`
+
+Remove first occurrence of element. Returns optional boolean indicating if an
+element was removed.
+
+```js
+tree.insert('x');
+tree.insert('x');
+tree.removeFirst('x');
+```
+
+#### `Tree#removeLast(x) -> Boolean`
+
+Remove last occurrence of element. Returns optional boolean indicating if an
+element was removed.
+
+```js
+tree.insert('x');
+tree.insert('x');
+tree.removeFirst('x');
+```
+
+#### `Tree#removeAll(x) -> Boolean`
+
+Remove all occurrences of element. Returns optional boolean indicating if an
+element was removed.
+
+```js
+tree.insert('x');
+tree.insert('x');
+tree.removeAll('x');
+```
+
+#### `Tree#remove(x) -> Boolean`
+
+Alias for `Tree#removeFirst`.
+
+#### `Tree#delete(ref)`
+
+Remove element given reference.
+
+```js
+let ref = tree.insert('abc');
+tree.delete(ref);
+```
+
+### Searching
+
+#### `Tree#find() -> x`
+
+#### `Tree#predecessor() -> x`
+
+#### `Tree#successor() -> x`
+
+#### `Tree#leftMost() -> x`
+
+#### `Tree#rightMost() -> x`
+
+### Merging
+
+#### `Tree#meld(other)`
+
+Merge two trees. Merged trees are destroyed.
+
+```js
+let a = from(compare, 'abc');
+let b = from(compare, '123');
+a.meld(b);
+```
+
+### Iterating
+
+#### `Tree#[Symbol.iterator]() -> Iterator`
+
+#### `Tree#items() -> Iterator`
+
+Alias for `Tree#[Symbol.iterator]()`.
+
+#### `Tree#rangeIE(left, right) -> Iterator`
+
+#### `Tree#rangeII(left, right) -> Iterator`
+
+#### `Tree#rangeEI(left, right) -> Iterator`
+
+#### `Tree#rangeEE(left, right) -> Iterator`
+
+#### `Tree#range(left, right) -> Iterator`
+
+Alias for `Tree#rangeIE(left, right) -> Iterator`.
