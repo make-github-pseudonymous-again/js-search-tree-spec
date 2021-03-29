@@ -128,6 +128,8 @@ Insert given element in the tree and returns optional reference.
 tree.insert('abc');
 ```
 
+Could also be called `Tree#add` instead.
+
 ### Update
 
 #### `Tree#update(x) -> Reference`
@@ -187,13 +189,16 @@ let ref = tree.insert('abc');
 tree.delete(ref);
 ```
 
+Could also be called `Tree#unlink` instead. Leaving `Tree#delete` as an alias
+for `Tree#removeFirst` or `Tree#removeAll` to mimic the `Set` API.
+
 ### Searching
 
-#### `Tree#find() -> x`
+#### `Tree#find(x) -> x`
 
-#### `Tree#predecessor() -> x`
+#### `Tree#predecessor(x) -> x`
 
-#### `Tree#successor() -> x`
+#### `Tree#successor(x) -> x`
 
 #### `Tree#leftMost() -> x`
 
@@ -218,6 +223,8 @@ a.meld(b);
 #### `Tree#items() -> Iterator`
 
 Alias for `Tree#[Symbol.iterator]()`.
+
+#### `Tree#reversed() -> Iterator`
 
 #### `Tree#rangeIE(left, right) -> Iterator`
 
