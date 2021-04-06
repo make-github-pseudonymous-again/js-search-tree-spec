@@ -162,7 +162,7 @@ element was removed.
 ```js
 tree.insert('x');
 tree.insert('x');
-tree.removeFirst('x');
+tree.removeLast('x');
 ```
 
 #### `Tree#removeAll(x) -> Boolean`
