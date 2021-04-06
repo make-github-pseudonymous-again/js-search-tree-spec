@@ -62,7 +62,7 @@ key functions (as is done in Python for instance).
     compare( a , b ) = 0 <=> key( a ) = key( b )
     compare( a , b ) > 0 <=> key( a ) > key( b )
 
-### Example of a `Ternary Comparator`
+#### Example of a `Ternary Comparator`
 
 The following `Comparator` orders instances of `String`.
 
@@ -216,7 +216,7 @@ let b = from(compare, '123');
 a.meld(b);
 ```
 
-### Iterating
+### Visit
 
 #### `Tree#[Symbol.iterator]() -> Iterator`
 
