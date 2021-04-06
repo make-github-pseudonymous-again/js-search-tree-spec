@@ -216,6 +216,18 @@ let b = from(compare, '123');
 a.meld(b);
 ```
 
+### Split
+
+#### `Tree#split(x) -> [Tree, x, Tree]`
+
+Split a tree at `x` such that
+
+```js
+const [left, key, right] = tree.split(x);
+assert(compare(key, x) === 0);
+assert(isBinarySearchTree({key, left, right}));
+```
+
 ### Visit
 
 #### `Tree#[Symbol.iterator]() -> Iterator`
