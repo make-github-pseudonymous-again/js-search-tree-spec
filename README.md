@@ -39,7 +39,7 @@ spec.test(
 [![Documentation](https://aureooms.github.io/js-search-tree-spec//badge.svg)](https://aureooms.github.io/js-search-tree-spec//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search-tree-spec)](https://bundlephobia.com/result?p=@aureooms/js-search-tree-spec)
 
-## Description
+## :newspaper: Description
 
 This package contains a specification test suite for search tree
 implementations such as
@@ -48,9 +48,9 @@ implementations such as
 and
 [@aureooms/js-avl-tree](https://github.com/aureooms/js-avl-tree).
 
-## Specification
+## :woman_teacher: Specification
 
-### Definition of a `Ternary Comparator`
+### :balance_scale: Definition of a `Ternary Comparator`
 
 We choose to parameterize trees using ternary comparator functions rather that
 key functions (as is done in Python for instance).
