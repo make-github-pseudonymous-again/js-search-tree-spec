@@ -1,8 +1,8 @@
-:mag: [@aureooms/js-search-tree-spec](https://aureooms.github.io/js-search-tree-spec)
+:mag: [@aureooms/js-search-tree-spec](https://make-github-pseudonymous-again.github.io/js-search-tree-spec)
 ==
 
 Search tree specification for JavaScript.
-See [docs](https://aureooms.github.io/js-search-tree-spec).
+See [docs](https://make-github-pseudonymous-again.github.io/js-search-tree-spec).
 Parent is [@aureooms/js-bst](https://github.com/aureooms/js-bst).
 
 ```js
@@ -36,7 +36,7 @@ spec.test(
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-search-tree-spec/main.svg)](https://codecov.io/gh/aureooms/js-search-tree-spec)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-search-tree-spec//badge.svg)](https://aureooms.github.io/js-search-tree-spec//source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-search-tree-spec//badge.svg)](https://make-github-pseudonymous-again.github.io/js-search-tree-spec//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search-tree-spec)](https://bundlephobia.com/result?p=@aureooms/js-search-tree-spec)
 
 ## :newspaper: Description
