@@ -3,7 +3,7 @@
 
 Search tree specification for JavaScript.
 See [docs](https://make-github-pseudonymous-again.github.io/js-search-tree-spec).
-Parent is [@aureooms/js-bst](https://github.com/aureooms/js-bst).
+Parent is [@aureooms/js-bst](https://github.com/make-github-pseudonymous-again/js-bst).
 
 ```js
 // eslint-disable-next-line ava/use-test
@@ -24,18 +24,18 @@ spec.test(
 ) ;
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-search-tree-spec.svg)](https://raw.githubusercontent.com/aureooms/js-search-tree-spec/main/LICENSE)
+[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-search-tree-spec.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-search-tree-spec/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-search-tree-spec.svg)](https://www.npmjs.org/package/@aureooms/js-search-tree-spec)
-[![Build](https://img.shields.io/travis/aureooms/js-search-tree-spec/main.svg)](https://travis-ci.org/aureooms/js-search-tree-spec/branches)
-[![Dependencies](https://img.shields.io/david/aureooms/js-search-tree-spec.svg)](https://david-dm.org/aureooms/js-search-tree-spec)
-[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-search-tree-spec.svg)](https://david-dm.org/aureooms/js-search-tree-spec?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-search-tree-spec.svg)](https://github.com/aureooms/js-search-tree-spec/issues)
+[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-search-tree-spec/main.svg)](https://travis-ci.org/make-github-pseudonymous-again/js-search-tree-spec/branches)
+[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-search-tree-spec.svg)](https://david-dm.org/make-github-pseudonymous-again/js-search-tree-spec)
+[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-search-tree-spec.svg)](https://david-dm.org/make-github-pseudonymous-again/js-search-tree-spec?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-search-tree-spec.svg)](https://github.com/make-github-pseudonymous-again/js-search-tree-spec/issues)
 [![Downloads](https://img.shields.io/npm/dm/@aureooms/js-search-tree-spec.svg)](https://www.npmjs.org/package/@aureooms/js-search-tree-spec)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-search-tree-spec/main.svg)](https://codecov.io/gh/aureooms/js-search-tree-spec)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-search-tree-spec.svg)](https://codeclimate.com/github/aureooms/js-search-tree-spec/trends/technical_debt)
+[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-search-tree-spec.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-search-tree-spec/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-search-tree-spec.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-search-tree-spec/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-search-tree-spec/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-search-tree-spec)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-search-tree-spec.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-search-tree-spec/trends/technical_debt)
 [![Documentation](https://make-github-pseudonymous-again.github.io/js-search-tree-spec//badge.svg)](https://make-github-pseudonymous-again.github.io/js-search-tree-spec//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search-tree-spec)](https://bundlephobia.com/result?p=@aureooms/js-search-tree-spec)
 
@@ -43,10 +43,10 @@ spec.test(
 
 This package contains a specification test suite for search tree
 implementations such as
-[@aureooms/js-red-black-tree](https://github.com/aureooms/js-red-black-tree),
-[@aureooms/js-splay-tree](https://github.com/aureooms/js-splay-tree),
+[@aureooms/js-red-black-tree](https://github.com/make-github-pseudonymous-again/js-red-black-tree),
+[@aureooms/js-splay-tree](https://github.com/make-github-pseudonymous-again/js-splay-tree),
 and
-[@aureooms/js-avl-tree](https://github.com/aureooms/js-avl-tree).
+[@aureooms/js-avl-tree](https://github.com/make-github-pseudonymous-again/js-avl-tree).
 
 ## :woman_teacher: Specification
 

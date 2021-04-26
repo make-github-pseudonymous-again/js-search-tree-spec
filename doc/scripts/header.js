@@ -17,7 +17,7 @@ domReady(function () {
 	header.insertBefore(projectname, header.firstChild);
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
-	testlink.href = 'https://coveralls.io/github/aureooms/js-search-tree-spec';
+	testlink.href = 'https://coveralls.io/github/make-github-pseudonymous-again/js-search-tree-spec';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
